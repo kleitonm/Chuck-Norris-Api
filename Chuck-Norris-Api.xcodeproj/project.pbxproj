@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E94B7D4125B0AAE159590CB4 /* Pods_Chuck_Norris_Api.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3568F5569471D268FBCB4AF /* Pods_Chuck_Norris_Api.framework */; };
+		FBE49C8A291AE27A0078257E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49C89291AE27A0078257E /* AppDelegate.swift */; };
+		FBE49C8C291AE27A0078257E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49C8B291AE27A0078257E /* SceneDelegate.swift */; };
+		FBE49C8E291AE27A0078257E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49C8D291AE27A0078257E /* ViewController.swift */; };
+		FBE49C91291AE27A0078257E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE49C8F291AE27A0078257E /* Main.storyboard */; };
+		FBE49C93291AE27F0078257E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE49C92291AE27F0078257E /* Assets.xcassets */; };
+		FBE49C96291AE27F0078257E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE49C94291AE27F0078257E /* LaunchScreen.storyboard */; };
+		FBE49CA4291AEFBA0078257E /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49CA3291AEFBA0078257E /* CodeView.swift */; };
+		FBE49CA6291AF0120078257E /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49CA5291AF0120078257E /* UIButton.swift */; };
+		FBE49CA8291AF0270078257E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49CA7291AF0270078257E /* UIColor.swift */; };
+		FBE49CAA291AF03F0078257E /* UIView+Corners.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49CA9291AF03F0078257E /* UIView+Corners.swift */; };
+		FBE49CAC291AF04F0078257E /* UIView+DorpShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE49CAB291AF04F0078257E /* UIView+DorpShadow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48FB831A382CC3BA28C8AE1B /* Pods-Chuck-Norris-Api.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck-Norris-Api.debug.xcconfig"; path = "Target Support Files/Pods-Chuck-Norris-Api/Pods-Chuck-Norris-Api.debug.xcconfig"; sourceTree = "<group>"; };
+		B292F261D3F081EF7A43E597 /* Pods-Chuck-Norris-Api.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chuck-Norris-Api.release.xcconfig"; path = "Target Support Files/Pods-Chuck-Norris-Api/Pods-Chuck-Norris-Api.release.xcconfig"; sourceTree = "<group>"; };
+		D3568F5569471D268FBCB4AF /* Pods_Chuck_Norris_Api.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chuck_Norris_Api.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE49C86291AE27A0078257E /* Chuck-Norris-Api.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chuck-Norris-Api.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE49C89291AE27A0078257E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE49C8B291AE27A0078257E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FBE49C8D291AE27A0078257E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBE49C90291AE27A0078257E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE49C92291AE27F0078257E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBE49C95291AE27F0078257E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBE49C97291AE27F0078257E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE49CA3291AEFBA0078257E /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		FBE49CA5291AF0120078257E /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		FBE49CA7291AF0270078257E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		FBE49CA9291AF03F0078257E /* UIView+Corners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Corners.swift"; sourceTree = "<group>"; };
+		FBE49CAB291AF04F0078257E /* UIView+DorpShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+DorpShadow.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE49C83291AE27A0078257E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94B7D4125B0AAE159590CB4 /* Pods_Chuck_Norris_Api.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA6D42E2323938B9FC6DDA6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48FB831A382CC3BA28C8AE1B /* Pods-Chuck-Norris-Api.debug.xcconfig */,
+				B292F261D3F081EF7A43E597 /* Pods-Chuck-Norris-Api.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB3045DE2CE904127F628293 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3568F5569471D268FBCB4AF /* Pods_Chuck_Norris_Api.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBE49C7D291AE27A0078257E = {
+			isa = PBXGroup;
+			children = (
+				FBE49C88291AE27A0078257E /* Chuck-Norris-Api */,
+				FBE49C87291AE27A0078257E /* Products */,
+				EA6D42E2323938B9FC6DDA6A /* Pods */,
+				FB3045DE2CE904127F628293 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE49C87291AE27A0078257E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49C86291AE27A0078257E /* Chuck-Norris-Api.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE49C88291AE27A0078257E /* Chuck-Norris-Api */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49CA2291AEF990078257E /* Protocol */,
+				FBE49CA1291AEF8A0078257E /* Extensions */,
+				FBE49CA0291AEDD60078257E /* Model */,
+				FBE49C9F291AEDD00078257E /* View */,
+				FBE49C9E291AEDB30078257E /* ViewModel */,
+				FBE49C9D291AED9C0078257E /* Delegate */,
+				FBE49C8F291AE27A0078257E /* Main.storyboard */,
+				FBE49C92291AE27F0078257E /* Assets.xcassets */,
+				FBE49C94291AE27F0078257E /* LaunchScreen.storyboard */,
+				FBE49C97291AE27F0078257E /* Info.plist */,
+			);
+			path = "Chuck-Norris-Api";
+			sourceTree = "<group>";
+		};
+		FBE49C9D291AED9C0078257E /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49C89291AE27A0078257E /* AppDelegate.swift */,
+				FBE49C8B291AE27A0078257E /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FBE49C9E291AEDB30078257E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FBE49C9F291AEDD00078257E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49C8D291AE27A0078257E /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FBE49CA0291AEDD60078257E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FBE49CA1291AEF8A0078257E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49CA5291AF0120078257E /* UIButton.swift */,
+				FBE49CA7291AF0270078257E /* UIColor.swift */,
+				FBE49CA9291AF03F0078257E /* UIView+Corners.swift */,
+				FBE49CAB291AF04F0078257E /* UIView+DorpShadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBE49CA2291AEF990078257E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FBE49CA3291AEFBA0078257E /* CodeView.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE49C85291AE27A0078257E /* Chuck-Norris-Api */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE49C9A291AE27F0078257E /* Build configuration list for PBXNativeTarget "Chuck-Norris-Api" */;
+			buildPhases = (
+				2496919FBB8475319F2F2045 /* [CP] Check Pods Manifest.lock */,
+				FBE49C82291AE27A0078257E /* Sources */,
+				FBE49C83291AE27A0078257E /* Frameworks */,
+				FBE49C84291AE27A0078257E /* Resources */,
+				6197F28531E264286B9F485A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chuck-Norris-Api";
+			productName = "Chuck-Norris-Api";
+			productReference = FBE49C86291AE27A0078257E /* Chuck-Norris-Api.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE49C7E291AE27A0078257E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FBE49C85291AE27A0078257E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FBE49C81291AE27A0078257E /* Build configuration list for PBXProject "Chuck-Norris-Api" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE49C7D291AE27A0078257E;
+			productRefGroup = FBE49C87291AE27A0078257E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE49C85291AE27A0078257E /* Chuck-Norris-Api */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE49C84291AE27A0078257E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE49C96291AE27F0078257E /* LaunchScreen.storyboard in Resources */,
+				FBE49C93291AE27F0078257E /* Assets.xcassets in Resources */,
+				FBE49C91291AE27A0078257E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2496919FBB8475319F2F2045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chuck-Norris-Api-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6197F28531E264286B9F485A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chuck-Norris-Api/Pods-Chuck-Norris-Api-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chuck-Norris-Api/Pods-Chuck-Norris-Api-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chuck-Norris-Api/Pods-Chuck-Norris-Api-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE49C82291AE27A0078257E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE49CA6291AF0120078257E /* UIButton.swift in Sources */,
+				FBE49CAC291AF04F0078257E /* UIView+DorpShadow.swift in Sources */,
+				FBE49CA8291AF0270078257E /* UIColor.swift in Sources */,
+				FBE49CAA291AF03F0078257E /* UIView+Corners.swift in Sources */,
+				FBE49C8E291AE27A0078257E /* ViewController.swift in Sources */,
+				FBE49C8A291AE27A0078257E /* AppDelegate.swift in Sources */,
+				FBE49C8C291AE27A0078257E /* SceneDelegate.swift in Sources */,
+				FBE49CA4291AEFBA0078257E /* CodeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBE49C8F291AE27A0078257E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE49C90291AE27A0078257E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE49C94291AE27F0078257E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE49C95291AE27F0078257E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE49C98291AE27F0078257E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBE49C99291AE27F0078257E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE49C9B291AE27F0078257E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48FB831A382CC3BA28C8AE1B /* Pods-Chuck-Norris-Api.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chuck-Norris-Api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kleitonmendes.Chuck-Norris-Api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBE49C9C291AE27F0078257E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B292F261D3F081EF7A43E597 /* Pods-Chuck-Norris-Api.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chuck-Norris-Api/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kleitonmendes.Chuck-Norris-Api";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE49C81291AE27A0078257E /* Build configuration list for PBXProject "Chuck-Norris-Api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE49C98291AE27F0078257E /* Debug */,
+				FBE49C99291AE27F0078257E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE49C9A291AE27F0078257E /* Build configuration list for PBXNativeTarget "Chuck-Norris-Api" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE49C9B291AE27F0078257E /* Debug */,
+				FBE49C9C291AE27F0078257E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE49C7E291AE27A0078257E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Chuck_Norris_Api {
+  umbrella header "Pods-Chuck-Norris-Api-umbrella.h"
+
+  export *
+  module * { export * }
+}
